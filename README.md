@@ -23,6 +23,9 @@ Server Setup - Authentication - Sections (27)
 62 - Server Setup 3:45
 
 * in server/ >npm init
+* >npm install --save express mongoose morgan body-parser
+* server/index.html and .gitignore
+
 
 63 - More Server Setup 5:41
 
