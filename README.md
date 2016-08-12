@@ -22,7 +22,7 @@ Server Setup - Authentication - Sections (27)
 
 62 - Server Setup 3:45
 
-
+* in server/ >npm init
 
 63 - More Server Setup 5:41
 
