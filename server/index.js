@@ -8,7 +8,8 @@ const morgan = require('morgan');
 const app = express();
 
 // App Setup
-
+app.use(morgan('combined')); // middleware: logging routes
+app.use(bodyParser.json({ type:'*/*' })); // middleware: json parsing
 
 // Server Setup
 const port = process.env.PORT || 3090; // setup port #

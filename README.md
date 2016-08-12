@@ -34,6 +34,11 @@ Server Setup - Authentication - Sections (27)
 
 64 - Express Middleware 6:29
 
+* add morgan and bodyParser middleware to app setup
+* >npm install --save nodemon (watch directory for changes and restarts server on script change)
+* add dev to json.package
+* > npm run dev
+
 65 - Express Route Handler 6:09
 
 66 - Mongoose Models 10:22
