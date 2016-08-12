@@ -47,6 +47,12 @@ Server Setup - Authentication - Sections (27)
 
 66 - Mongoose Models 10:22
 
+* make a User Model with Mongoose with email and password
+* create models folder + models/user.js
+* import mongoose and Schema
+* setup schema in model
+
+
 67 - MongoDB Setup 6:29
 
 68 - Inspecting the Database 6:19
