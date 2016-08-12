@@ -41,6 +41,10 @@ Server Setup - Authentication - Sections (27)
 
 65 - Express Route Handler 6:09
 
+* create router.js, export.module
+* import into index.js
+* edit index to add router(app);
+
 66 - Mongoose Models 10:22
 
 67 - MongoDB Setup 6:29
