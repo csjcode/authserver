@@ -26,8 +26,11 @@ Server Setup - Authentication - Sections (27)
 * >npm install --save express mongoose morgan body-parser
 * server/index.html and .gitignore
 
-
 63 - More Server Setup 5:41
+
+* node 5.5 does note have all ES6 so we'll use require for imports
+* import express, http, bodyParser, morgan, app
+* setup port, server, server.listen and log
 
 64 - Express Middleware 6:29
 
