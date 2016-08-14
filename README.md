@@ -52,12 +52,26 @@ Server Setup - Authentication - Sections (27)
 * import mongoose and Schema
 * setup schema in model
 
-
 67 - MongoDB Setup 6:29
+
+* mongo installed
+* on windows: C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe
+* start in new command window
 
 68 - Inspecting the Database 6:19
 
+* import mongoose in index.js
+* setup DB in index.js
+* confirm connection by viewing mongodb console for new connection listening
+* Download robomongo, create connection
+* make sure to restart mongodb to use robomongo
+
 69 - Authentication Controller 4:57
+
+* create controllers/authentication.js
+* add new authentication post in router.js
+* update authenticaton controller with send
+* check for success with postman in chrome
 
 70 - Searching for Users 7:57
 
