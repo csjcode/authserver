@@ -114,11 +114,16 @@ Server Setup - Authentication - Sections (27)
 * require 5 modules
 
 
-77 - Passport Strategies 8:55
+### 77 - Passport Strategies 8:55
 
 * goals: create some jwt options, create jwt strategy, tell passport to use this strategy
 
-78 - Using Strategies with Passport 4:02
+### 78 - Using Strategies with Passport 4:02
+
+* fill out jwtOptions - add jwtRequest to get string from the header
+* secretOrKey: config.secret
+* tell passport to use this strategy -  passport.use(jwtLogin);
+
 
 79 - Making an Authenticated Request 5:55
 
