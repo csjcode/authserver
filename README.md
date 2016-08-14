@@ -127,6 +127,14 @@ Server Setup - Authentication - Sections (27)
 
 79 - Making an Authenticated Request 5:55
 
+* make changes to router to require authorization on a certain route
+* postman send GET http://localhost:3090/
+* this part is a bit tricky... in postman signup with the POST http://localhost:3090/signup
+* copy the token only (received after submitting)
+* change to GET http://localhost:3090/ - add 2 lines to Headers (key:value)
+* Content-Type: application/json ....  authorization: [input the token copied]
+
+
 80 - Signing in with Local Strategy 5:37
 
 81 - Purpose of Local Strategy 4:17
