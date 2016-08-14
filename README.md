@@ -99,8 +99,11 @@ Server Setup - Authentication - Sections (27)
 
 75 - Creating a JWT 7:13
 
+* >npm install --save jwt-simple
+* create config.js file with secret string
+* import jwt-simple & config into authentication controller
+* add tokenForUser function
 * 
-
 
 76 - Installing Passport 5:50
 
