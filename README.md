@@ -90,9 +90,10 @@ Server Setup - Authentication - Sections (27)
 * >npm install --save bcrypt-nodejs
 * import bcrypt to user.js
 * save, hook and encrypt password
-* 
 
 73 - Salting a Password 6:16
+
+
 
 74 - JWT Overview 4:58
 
