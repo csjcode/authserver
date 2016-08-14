@@ -87,7 +87,10 @@ Server Setup - Authentication - Sections (27)
 72 - Encrypting Passwords with Bcrypt 8:12
 
 * add a check to verify email/password - make sure exists
-
+* >npm install --save bcrypt-nodejs
+* import bcrypt to user.js
+* save, hook and encrypt password
+* 
 
 73 - Salting a Password 6:16
 
