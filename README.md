@@ -80,8 +80,10 @@ Server Setup - Authentication - Sections (27)
 * add email and password info & test with console log (shos in server console))
 * add user model into controllers/authentication
 
-
 71 - Creating User Records 6:31
+*  fill out authentication controllers, connect to user model (mongoose)
+*  test in server console and postman
+
 
 72 - Encrypting Passwords with Bcrypt 8:12
 
