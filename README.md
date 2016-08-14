@@ -84,8 +84,10 @@ Server Setup - Authentication - Sections (27)
 *  fill out authentication controllers, connect to user model (mongoose)
 *  test in server console and postman
 
-
 72 - Encrypting Passwords with Bcrypt 8:12
+
+* add a check to verify email/password - make sure exists
+
 
 73 - Salting a Password 6:16
 
