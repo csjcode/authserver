@@ -71,9 +71,15 @@ Server Setup - Authentication - Sections (27)
 * create controllers/authentication.js
 * add new authentication post in router.js
 * update authenticaton controller with send
-* check for success with postman in chrome
+* check for success with postman in chrome(http://localhost:3090/signup)
 
 70 - Searching for Users 7:57
+* read in user if passed, check if email exists, if not: save
+* req.body gets contents of req (request)
+* in postman select Body -> raw and JSON
+* add email and password info & test with console log (shos in server console))
+* add user model into controllers/authentication
+
 
 71 - Creating User Records 6:31
 
