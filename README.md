@@ -112,9 +112,11 @@ Server Setup - Authentication - Sections (27)
 * >npm install --save passport passport-jwt
 * mkdir server\services & server\services\passport.js
 * require 5 modules
-*
+
 
 77 - Passport Strategies 8:55
+
+* goals: create some jwt options, create jwt strategy, tell passport to use this strategy
 
 78 - Using Strategies with Passport 4:02
 
