@@ -37,7 +37,7 @@ exports.signup = function (req,res,next) {
 
       // Respond to request indicating user created
       // res.json(user); // testing
-       res.json({"success":true});
+       res.json({token:tokenForUser(user)});
 
     });
 
