@@ -106,8 +106,13 @@ Server Setup - Authentication - Sections (27)
 * now edit res.json({token:tokenForUser(user)});
 * addiitonal resources: https://jwt.io/
 
-76 - Installing Passport 5:50
+### 76 - Installing Passport 5:50
 
+* Check login intercept with passport.js
+* >npm install --save passport passport-jwt
+* mkdir server\services & server\services\passport.js
+* require 5 modules
+*
 
 77 - Passport Strategies 8:55
 
