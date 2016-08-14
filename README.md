@@ -93,11 +93,14 @@ Server Setup - Authentication - Sections (27)
 
 73 - Salting a Password 6:16
 
-
-
 74 - JWT Overview 4:58
 
+* see diagram
+
 75 - Creating a JWT 7:13
+
+* 
+
 
 76 - Installing Passport 5:50
 
