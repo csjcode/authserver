@@ -124,7 +124,6 @@ Server Setup - Authentication - Sections (27)
 * secretOrKey: config.secret
 * tell passport to use this strategy -  passport.use(jwtLogin);
 
-
 79 - Making an Authenticated Request 5:55
 
 * make changes to router to require authorization on a certain route
@@ -134,8 +133,11 @@ Server Setup - Authentication - Sections (27)
 * change to GET http://localhost:3090/ - add 2 lines to Headers (key:value)
 * Content-Type: application/json ....  authorization: [input the token copied]
 
-
 80 - Signing in with Local Strategy 5:37
+
+* Different strategy, local data
+* >npm install --save passport-local
+
 
 81 - Purpose of Local Strategy 4:17
 
