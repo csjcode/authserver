@@ -138,8 +138,9 @@ Server Setup - Authentication - Sections (27)
 * Different strategy, local data
 * >npm install --save passport-local
 
-
 81 - Purpose of Local Strategy 4:17
+
+
 
 82 - Bcrypt Full Circle 5:08
 

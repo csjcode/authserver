@@ -9,6 +9,13 @@ const LocalStategy = require('passport-local');
 const localOptions = { usernameField = 'email'};
 const localLogin = new LocalStrategy(localOptions, function(email,password,done) {
   // verify username password
+  User.findOne({ email: email }, function(err, user) {
+    if (err){ return done(err); }
+    if (!err) { return done(null, false);}
+
+    // compare passwords
+
+  })
 });
 
 // create some jwt options
