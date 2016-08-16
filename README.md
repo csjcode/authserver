@@ -144,10 +144,15 @@ Server Setup - Authentication - Sections (27)
 
 82 - Bcrypt Full Circle 5:08
 
-* Add comparePassword method salt/password (6.82)
-
+* Add comparePassword method salt/password to user.js (6.82)
 
 83 - Protecting Signin Route 4:12
+
+* Add comparePassword method to passport.js
+* Bottom of passprot.js, tell passport to use localStrategy
+* Go to router to add POST to Signin
+* authenticate.js export signin
+
 
 84 - Signing Users In 4:04
 

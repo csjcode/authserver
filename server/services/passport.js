@@ -5,7 +5,7 @@ const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const LocalStrategy = require('passport-local');
 
-// Create local strategy 
+// Create local strategy
 const localOptions = { usernameField : 'email'};
 const localLogin = new LocalStrategy(localOptions, function(email,password,done) {
   // verify username password
@@ -13,7 +13,15 @@ const localLogin = new LocalStrategy(localOptions, function(email,password,done)
     if (err){ return done(err); }
     if (!err) { return done(null, false);}
 
-    // compare passwords
+    // compare passwords (use bcrypt compare method from user.js)
+
+    user.comparePassword(password, function(err, isMatch) {
+      if (err) { return done(err); }
+      if (!isMatch) { return done(null,false); }
+
+
+      return done(null,user);
+    })
 
   })
 });
@@ -42,4 +50,6 @@ const jwtLogin = new JwtStrategy(jwtOptions,function(payload,done) {
 });
 
 // tell passport to use this strategy
+
 passport.use(jwtLogin);
+passport.use(localLogin);
