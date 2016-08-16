@@ -156,7 +156,7 @@ Server Setup - Authentication - Sections (27)
 ### 84 - Signing Users In 4:04
 
 * we need to get the current user model inside the signin function
-* done - Postman check in postman, for
+* done - Postman check in postman, for testing - careful of typo (!user) vs (err) in passport.js
 * POST sign up: http://localhost:3090/signin
 * POST sign in: http://localhost:3090/signin
 * GET (must include authorization/content-type json in header) authenticate for restricted resource: http://localhost:3090/
