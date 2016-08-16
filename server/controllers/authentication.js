@@ -7,31 +7,30 @@ function tokenForUser(user) {
   return jwt.encode({sub: user.id, iat:timestamp}, config.secret); // jwt is convention, sub means "subject"
 }
 
-exports.signin = function (req,res,next) {
-  // User has alreay had their email and password auth'd, just need a token
-  
+exports.signin = function(req, res, next) {
+  // User has already had their email and password auth'd
+  // We just need to give them a token
+  res.send({ token: tokenForUser(req.user) });
 }
 
-exports.signup = function (req,res,next) {
-
-  // res.send({success:'true'}); // -- Test
-  // console.log(req.body);
-
+exports.signup = function(req, res, next) {
   const email = req.body.email;
   const password = req.body.password;
 
-  if (!email || !password){
-    return res.status(422).send({ error: "You must provide email & password"});
+  if (!email || !password) {
+    return res.status(422).send({ error: 'You must provide email and password'});
   }
 
-  User.findOne({email:email},function(err,existingUser) { // See if user with a given email exists
+  // See if a user with the given email exists
+  User.findOne({ email: email }, function(err, existingUser) {
     if (err) { return next(err); }
 
-    if (existingUser){   // If user does exist, return error
-      return res.status(422).send({"error":"Email is in use"}) // set http code for returning error to not process
+    // If a user with email does exist, return an error
+    if (existingUser) {
+      return res.status(422).send({ error: 'Email is in use' });
     }
 
-    // If user does NOT exist, create and save user record.
+    // If a user with email does NOT exist, create and save user record
     const user = new User({
       email: email,
       password: password
@@ -40,20 +39,8 @@ exports.signup = function (req,res,next) {
     user.save(function(err) {
       if (err) { return next(err); }
 
-      // Respond to request indicating user created
-      // res.json(user); // testing
-       res.json({token:tokenForUser(user)});
-
+      // Repond to request indicating the user was created
+      res.json({ token: tokenForUser(user) });
     });
-
-
   });
-
-
-
-
-
-
-
-
 }

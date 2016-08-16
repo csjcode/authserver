@@ -25,12 +25,12 @@ userSchema.pre('save',function(next) { // Before model gets saved, run this func
   });
 });
 
-userSchema.methods.comparePassword = function(candidatePassword,callback) {
+userSchema.methods.comparePassword = function(candidatePassword, callback) {
   bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
     if (err) { return callback(err); }
 
-    callback(null, isMatch)
-  })
+    callback(null, isMatch);
+  });
 }
 
 // Create a model class

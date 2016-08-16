@@ -126,7 +126,7 @@ Server Setup - Authentication - Sections (27)
 * secretOrKey: config.secret
 * tell passport to use this strategy -  passport.use(jwtLogin);
 
-79 - Making an Authenticated Request 5:55
+### 79 - Making an Authenticated Request 5:55
 
 * make changes to router to require authorization on a certain route
 * postman send GET http://localhost:3090/
@@ -135,25 +135,30 @@ Server Setup - Authentication - Sections (27)
 * change to GET http://localhost:3090/ - add 2 lines to Headers (key:value)
 * Content-Type: application/json ....  authorization: [input the token copied]
 
-80 - Signing in with Local Strategy 5:37
+### 80 - Signing in with Local Strategy 5:37
 
 * Different strategy, local data
 * >npm install --save passport-local
 
-81 - Purpose of Local Strategy 4:17
+### 81 - Purpose of Local Strategy 4:17
 
-82 - Bcrypt Full Circle 5:08
+### 82 - Bcrypt Full Circle 5:08
 
 * Add comparePassword method salt/password to user.js (6.82)
 
-83 - Protecting Signin Route 4:12
+### 83 - Protecting Signin Route 4:12
 
 * Add comparePassword method to passport.js
-* Bottom of passprot.js, tell passport to use localStrategy
+* Bottom of passport.js, tell passport to use localStrategy
 * Go to router to add POST to Signin
 * authenticate.js export signin
 
+### 84 - Signing Users In 4:04
 
-84 - Signing Users In 4:04
+* we need to get the current user model inside the signin function
+* done - Postman check in postman, for
+* POST sign up: http://localhost:3090/signin
+* POST sign in: http://localhost:3090/signin
+* GET (must include authorization/content-type json in header) authenticate for restricted resource: http://localhost:3090/
 
 85 - Server Review
