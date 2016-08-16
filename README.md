@@ -144,6 +144,7 @@ Server Setup - Authentication - Sections (27)
 
 82 - Bcrypt Full Circle 5:08
 
+* Add comparePassword method salt/password (6.82)
 
 
 83 - Protecting Signin Route 4:12
