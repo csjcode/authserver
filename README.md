@@ -1,5 +1,7 @@
 # authserver
 
+* >npm run dev
+
 ### User Authentication API server with Node.js, Express, Mongoose, MongoDB, Bcrypt, JWT, Passport
 
 Based on auth server in the Udemy course Advanced React
@@ -140,9 +142,9 @@ Server Setup - Authentication - Sections (27)
 
 81 - Purpose of Local Strategy 4:17
 
-
-
 82 - Bcrypt Full Circle 5:08
+
+
 
 83 - Protecting Signin Route 4:12
 
