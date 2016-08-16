@@ -6,7 +6,7 @@
 
 Based on auth server in the Udemy course Advanced React
 
-## Notes:
+## AUTH SERVER SETUP Notes:
 
 Server Setup - Authentication - Sections (27)
 
@@ -162,3 +162,45 @@ Server Setup - Authentication - Sections (27)
 * GET (must include authorization/content-type json in header) authenticate for restricted resource: http://localhost:3090/
 
 ### 85 - Server Review
+
+
+
+--------------------------
+
+## AUTH CLIENT SETUP Notes:
+
+Based on auth server client-side in the Udemy course Advanced React
+
+### 86 - Client Setup 2:28
+### 87 - App Architecture 5:48
+### 88 - Component and State Design 7:30
+### 89 - Header Component 4:17
+### 90 - Scaffolding the Signin Form 11:03
+### 91 - Adding Signin Form 5:58
+### 92 - Action Creator with Many Responsibilities 8:22
+### 93 - Introducing Redux Thunk 7:10
+### 94 - Signin Action Creator 10:38
+### 95 - CORS In a Nutshell 9:13
+### 96 - Serverside Solution for CORS 6:16
+### 97 - Programmatic Navigation 7:11
+### 98 - Updating Auth State 6:29
+### 99 - Breather and Review 5:39
+### 100 - LocalStorage and JWT 6:39
+### 101 - Auth Error Messaging 4:36
+### 102 - Displaying Errors 4:40
+### 103 - Header Logic 10:29
+### 104 - Signout Component 5:32
+### 105 - Signout Action Creator 4:45
+### 106 - Signup Component 4:12
+### 107 - Signup Form Scaffolding 8:02
+### 108 - Redux Form Validation 4:30
+### 109 - Implementing Validation Logic 9:28
+### 110 - More On Validation 5:40
+### 111 - Signup Action Creator 7:11
+### 112 - Finish Up Signup 8:55
+### 113 - Securing Individual Routes 10:21
+### 114 - Root IndexRoute 2:34
+### 115 - Automatically Authenticating Users 7:11
+### 116 - Making Authenticated API Requests 8:01
+### 117 - Handling Data from Authenticated Requests 5:13
+### 118 - Authentication Wrapup 3:29
