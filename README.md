@@ -199,6 +199,18 @@ Based on auth server client-side in the Udemy course Advanced React
 * app.js - add <Header />
 
 ### 90 - Scaffolding the Signin Form 11:03
+
+* create auth folder - client\src\components\auth
+* create signin.js component
+* >npm install --save redux-form
+* export default reduxForm(
+* in signin.js import reduxForm
+* in reducers/index import reducer from redux-form
+* Tip, you can do this ("as form") in ES6 : import { reducer as form } from 'redux-form';
+* this allows you change reducer to  form: form (instead of form: reducer)
+* this can be further refactored to just form (in ES6 with curly braces its same as form:form)
+* set up sign in form in sign.js
+
 ### 91 - Adding Signin Form 5:58
 ### 92 - Action Creator with Many Responsibilities 8:22
 ### 93 - Introducing Redux Thunk 7:10
