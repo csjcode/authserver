@@ -180,7 +180,7 @@ Based on auth server client-side in the Udemy course Advanced React
 
 * >npm run start
 * http://localhost:8080/
-* 
+* Route Wireframe image
 
 ### 88 - Component and State Design 7:30
 ### 89 - Header Component 4:17
