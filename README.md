@@ -180,9 +180,15 @@ Based on auth server client-side in the Udemy course Advanced React
 
 * >npm run start
 * http://localhost:8080/
-* Route Wireframe image
+* Route Wireframe image  
+* 5 routes - /, /signin, /signup, /feature, /signout
 
 ### 88 - Component and State Design 7:30
+
+* Component diagram
+* Application state diagram
+
+
 ### 89 - Header Component 4:17
 ### 90 - Scaffolding the Signin Form 11:03
 ### 91 - Adding Signin Form 5:58
