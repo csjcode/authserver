@@ -187,13 +187,16 @@ Based on auth server client-side in the Udemy course Advanced React
 
 * Component diagram
 * Application state diagram
+* Add initial Route
 * index.js: import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 * Route inside Provider - <Router history={browserHistory} /> <Route path="/" component={App}>
 * test: http://localhost:8080/
 
 ### 89 - Header Component 4:17
 
-
+* Create Header component
+* Make header.js - import Component & react, Header extends Component, export default Header
+* app.js - add <Header />
 
 ### 90 - Scaffolding the Signin Form 11:03
 ### 91 - Adding Signin Form 5:58
