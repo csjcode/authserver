@@ -250,10 +250,12 @@ Based on auth server client-side in the Udemy course Advanced React
 * signin.js - expor default reduxForm - add: ,null, actions to access to all actions on props.
 * signin.js -  this.props.signinUser({email, password});
 
-
-
 ### 95 - CORS In a Nutshell 9:13
 ### 96 - Serverside Solution for CORS 6:16
+
+* >npm install --save cors
+
+
 ### 97 - Programmatic Navigation 7:11
 ### 98 - Updating Auth State 6:29
 ### 99 - Breather and Review 5:39
