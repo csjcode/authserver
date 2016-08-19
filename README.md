@@ -230,6 +230,13 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 93 - Introducing Redux Thunk 7:10
 
 * see: action-flow-full-diagram.png
+* >npm install --save redux-thunk
+* must import in  src/index.js
+* in index.js add to apply middleware chain
+* normally - action creator always return an object, the object is an "action", and the action has a "type"
+* however, with thunk - the action creator returns a function. (to get direct access to the dispatch method, allowing us to dispatch actions when we want)
+* all logic for action creator can go inside the return function
+
 
 ### 94 - Signin Action Creator 10:38
 ### 95 - CORS In a Nutshell 9:13
