@@ -229,6 +229,7 @@ Based on auth server client-side in the Udemy course Advanced React
 
 ### 93 - Introducing Redux Thunk 7:10
 
+* see: action-flow-full-diagram.png
 
 ### 94 - Signin Action Creator 10:38
 ### 95 - CORS In a Nutshell 9:13
