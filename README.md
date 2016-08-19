@@ -212,6 +212,16 @@ Based on auth server client-side in the Udemy course Advanced React
 * set up sign in form in sign.js
 
 ### 91 - Adding Signin Form 5:58
+
+* Add to signin.js - handleSubmit = this.props
+* In signin.js - Add email and password helpers
+* Listen for onSubmit
+* make handleFormSubmit function
+* import and hook up to App component so we can see the form.
+* in app.js {this.props.children}
+* check here: http://localhost:8080/signin
+
+
 ### 92 - Action Creator with Many Responsibilities 8:22
 ### 93 - Introducing Redux Thunk 7:10
 ### 94 - Signin Action Creator 10:38
