@@ -253,7 +253,7 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 95 - CORS In a Nutshell 9:13
 ### 96 - Serverside Solution for CORS 6:16
 
-* >npm install --save cors
+* [in server dir] >npm install --save cors
 
 
 ### 97 - Programmatic Navigation 7:11
