@@ -225,11 +225,11 @@ Based on auth server client-side in the Udemy course Advanced React
 * When submitting form we need to connect ti to the server
 * We need an Action Creator with a callback to handle invalid submits, errors
 * see: action-creator-form-flow.Protecting
-* 
-
-
+* edit actions/index.js
 
 ### 93 - Introducing Redux Thunk 7:10
+
+
 ### 94 - Signin Action Creator 10:38
 ### 95 - CORS In a Nutshell 9:13
 ### 96 - Serverside Solution for CORS 6:16
