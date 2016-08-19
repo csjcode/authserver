@@ -237,8 +237,21 @@ Based on auth server client-side in the Udemy course Advanced React
 * however, with thunk - the action creator returns a function. (to get direct access to the dispatch method, allowing us to dispatch actions when we want)
 * all logic for action creator can go inside the return function
 
-
 ### 94 - Signin Action Creator 10:38
+
+* we'll be submitting email/password to api server
+* startup api server (npm run start and mongod) running on port 3090
+* in actions/index declare const ROOT_URL = 'http://localhost:3090/';
+* to make the ajax request we'll use axios library
+* >npm install --save axios
+* >npm run start
+* actions/index - add import and post.axios
+* signin.js - import * as actions from '../../actions';
+* signin.js - expor default reduxForm - add: ,null, actions to access to all actions on props.
+* signin.js -  this.props.signinUser({email, password});
+
+
+
 ### 95 - CORS In a Nutshell 9:13
 ### 96 - Serverside Solution for CORS 6:16
 ### 97 - Programmatic Navigation 7:11
