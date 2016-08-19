@@ -163,8 +163,6 @@ Server Setup - Authentication - Sections (27)
 
 ### 85 - Server Review
 
-
-
 --------------------------
 
 ## AUTH CLIENT SETUP Notes:
@@ -220,9 +218,17 @@ Based on auth server client-side in the Udemy course Advanced React
 * import and hook up to App component so we can see the form.
 * in app.js {this.props.children}
 * check here: http://localhost:8080/signin
-
+* enter user/pass and see it come up in console
 
 ### 92 - Action Creator with Many Responsibilities 8:22
+
+* When submitting form we need to connect ti to the server
+* We need an Action Creator with a callback to handle invalid submits, errors
+* see: action-creator-form-flow.Protecting
+* 
+
+
+
 ### 93 - Introducing Redux Thunk 7:10
 ### 94 - Signin Action Creator 10:38
 ### 95 - CORS In a Nutshell 9:13
