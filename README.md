@@ -284,6 +284,11 @@ Based on auth server client-side in the Udemy course Advanced React
 * check Chrome console local storage: localStorage.getItem('token') - should show token
 
 ### 101 - Auth Error Messaging 4:36
+* add auth_error to types file
+* make a new action creator authError in actions/index
+* make sure to import type into actions/index file
+
+
 ### 102 - Displaying Errors 4:40
 
 
