@@ -268,7 +268,8 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 98 - Updating Auth State 6:29
 
 * setup authReducer in reducers/index and auth_reducer.js
-* 
+* add authenticate case and flags to auth_reducer
+* add actions/types.js
 
 ### 99 - Breather and Review 5:39
 ### 100 - LocalStorage and JWT 6:39
