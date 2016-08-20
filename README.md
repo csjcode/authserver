@@ -263,9 +263,13 @@ Based on auth server client-side in the Udemy course Advanced React
 * add then & catch to axios call in actions/index (promises)
 * add programmatic navigation: redirect to link
 * import { browserHistory } from \'react-router\'; browserHistory.push(\'/feature\')
-* 
+* test to redirret to feature : http://localhost:8080/signin
 
 ### 98 - Updating Auth State 6:29
+
+* setup authReducer in reducers/index and auth_reducer.js
+* 
+
 ### 99 - Breather and Review 5:39
 ### 100 - LocalStorage and JWT 6:39
 ### 101 - Auth Error Messaging 4:36
