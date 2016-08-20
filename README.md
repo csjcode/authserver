@@ -254,9 +254,15 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 96 - Serverside Solution for CORS 6:16
 
 * [in server dir] >npm install --save cors
-
+* try again - http://localhost:8080/signin
+* must be signing in with a previous user/email (check robomongo)
+* check for token response in devconsole XHR > Response > JSON
 
 ### 97 - Programmatic Navigation 7:11
+
+* add then & catch to axios call in actions/index (promises)
+*
+
 ### 98 - Updating Auth State 6:29
 ### 99 - Breather and Review 5:39
 ### 100 - LocalStorage and JWT 6:39
