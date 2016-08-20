@@ -26,7 +26,7 @@ export function signinUser({ email, password }) {
 
 };
 
-export function authError({ error }) {
+export function authError(error) {
   return {
     type: AUTH_ERROR,
     payload: error

@@ -291,6 +291,11 @@ Based on auth server client-side in the Udemy course Advanced React
 
 ### 102 - Displaying Errors 4:40
 
+* Add error to auth_reducer
+* in signin.js add mapStateToProps
+* signin.js: add Error msg renderAlert function
+* obfuscate password field (input type)
+
 
 ### 103 - Header Logic 10:29
 ### 104 - Signout Component 5:32
