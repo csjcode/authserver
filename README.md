@@ -276,8 +276,17 @@ Based on auth server client-side in the Udemy course Advanced React
 * good walkthough of the client code until now.
 
 ### 100 - LocalStorage and JWT 6:39
+
+* saving the JWT token with  the action creator - where? - LocalStorage
+* LocalStorage code in actions/index
+* check browser: http://localhost:8080/signin
+* sign in and refresh page
+* check Chrome console local storage: localStorage.getItem('token') - should show token
+
 ### 101 - Auth Error Messaging 4:36
 ### 102 - Displaying Errors 4:40
+
+
 ### 103 - Header Logic 10:29
 ### 104 - Signout Component 5:32
 ### 105 - Signout Action Creator 4:45
