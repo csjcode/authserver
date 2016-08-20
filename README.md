@@ -261,7 +261,9 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 97 - Programmatic Navigation 7:11
 
 * add then & catch to axios call in actions/index (promises)
-*
+* add programmatic navigation: redirect to link
+* import { browserHistory } from \'react-router\'; browserHistory.push(\'/feature\')
+* 
 
 ### 98 - Updating Auth State 6:29
 ### 99 - Breather and Review 5:39
