@@ -316,6 +316,15 @@ Based on auth server client-side in the Udemy course Advanced React
 * in src/index.js import signout.js, add route
 
 ### 105 - Signout Action Creator 4:45
+
+* Action creator for Signout to finish Signout component
+* types.js - make sure action type has ben specified, in this case UNAUTH_USER
+* in actions/index import UNAUTH_USER
+* make function called signoutUser
+* we need to also get rid of the token we saved
+* localStorage.removeItem('token');
+
+
 ### 106 - Signup Component 4:12
 ### 107 - Signup Form Scaffolding 8:02
 ### 108 - Redux Form Validation 4:30
