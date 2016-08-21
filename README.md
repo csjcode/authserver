@@ -296,8 +296,14 @@ Based on auth server client-side in the Udemy course Advanced React
 * signin.js: add Error msg renderAlert function
 * obfuscate password field (input type)
 
-
 ### 103 - Header Logic 10:29
+
+* make header.js a container: import { connect } from 'react-redux';
+* import Link
+* add connect helper to export statement
+* add mapStateToProps
+* 
+
 ### 104 - Signout Component 5:32
 ### 105 - Signout Action Creator 4:45
 ### 106 - Signup Component 4:12
