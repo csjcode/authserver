@@ -302,9 +302,16 @@ Based on auth server client-side in the Udemy course Advanced React
 * import Link
 * add connect helper to export statement
 * add mapStateToProps
-* 
+* renderLinks method for which buttons to display
+* (we also use an array of components for the signin and signout part)
+* make sure to add keys in the component array, we use static keys
+* test: http://localhost:8080/signin
+* still have to do dome debugging
 
 ### 104 - Signout Component 5:32
+
+
+
 ### 105 - Signout Action Creator 4:45
 ### 106 - Signup Component 4:12
 ### 107 - Signup Form Scaffolding 8:02
