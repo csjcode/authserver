@@ -324,9 +324,15 @@ Based on auth server client-side in the Udemy course Advanced React
 * we need to also get rid of the token we saved
 * localStorage.removeItem('token');
 
-
 ### 106 - Signup Component 4:12
+
+* create signup.js
+* Scaffold out Signup component
+* Add import and route for Signup
+* test: http://localhost:8080/signup
+
 ### 107 - Signup Form Scaffolding 8:02
+
 ### 108 - Redux Form Validation 4:30
 ### 109 - Implementing Validation Logic 9:28
 ### 110 - More On Validation 5:40
