@@ -311,7 +311,9 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 104 - Signout Component 5:32
 
 * Correct error in last section - add mapStateToProps in export connect helper
-
+* create: client\src\components\auth\signout.js
+* setup Signout component
+* in src/index.js import signout.js, add route
 
 ### 105 - Signout Action Creator 4:45
 ### 106 - Signup Component 4:12
