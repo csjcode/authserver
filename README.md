@@ -310,6 +310,7 @@ Based on auth server client-side in the Udemy course Advanced React
 
 ### 104 - Signout Component 5:32
 
+* Correct error in last section - add mapStateToProps in export connect helper
 
 
 ### 105 - Signout Action Creator 4:45
