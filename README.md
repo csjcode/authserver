@@ -336,6 +336,7 @@ Based on auth server client-side in the Udemy course Advanced React
 * Login scaffolding diagram (7.107)
 * signup.js: export default reduxForm({
 * Signup form with redux-form (7.107)
+* Front-end of Signup form (7.107) email, password, passwordConfirm
 
 ### 108 - Redux Form Validation 4:30
 ### 109 - Implementing Validation Logic 9:28

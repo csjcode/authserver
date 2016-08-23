@@ -12,10 +12,10 @@ class Signup extends Component {
           <label>Email: </label>
           <input className="form-control" {...email} />
           <label>Password: </label>
-          <input className="form-control" {...password} />
+          <input className="form-control" {...password} type="password" />
           <label>Password Confirm: </label>
-          <input className="form-control" {...passwordConfirm} />
-        </fieldset>
+          <input className="form-control" {...passwordConfirm}  type="password" />
+        </fieldset><button action="submit" className="btn btn-primary">Sign Up!</button>
       </form>
     );
   }
