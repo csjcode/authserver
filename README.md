@@ -333,6 +333,8 @@ Based on auth server client-side in the Udemy course Advanced React
 
 ### 107 - Signup Form Scaffolding 8:02
 
+
+
 ### 108 - Redux Form Validation 4:30
 ### 109 - Implementing Validation Logic 9:28
 ### 110 - More On Validation 5:40
