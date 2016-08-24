@@ -13,6 +13,7 @@ class Signup extends Component {
           <input className="form-control" {...email} />
           <label>Password: </label>
           <input className="form-control" {...password} type="password" />
+          <div>{ password.error }</div>
           <label>Password Confirm: </label>
           <input className="form-control" {...passwordConfirm}  type="password" />
         </fieldset><button action="submit" className="btn btn-primary">Sign Up!</button>
@@ -24,7 +25,12 @@ class Signup extends Component {
 function validate(formProps) {
   const errors = {};
 
-  console.log(formProps);
+  if (formProps.password !== formProps.passwordConfirm){
+    errors.password = "passwords must match";
+  }
+
+
+  // console.log(formProps);
 
   return errors;
 }

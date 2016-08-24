@@ -353,7 +353,9 @@ Based on auth server client-side in the Udemy course Advanced React
 * signup.js: function validate(formProps) {
 * r=tell ReduxForm to use function
 * test with console.log inside validate function
-* 
+* set error conditions in validate function
+* under each html field have a returned error msg
+
 
 
 ### 110 - More On Validation 5:40
