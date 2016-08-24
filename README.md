@@ -361,10 +361,15 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 110 - More On Validation 5:40
 
 * make sure user has entered text for all fields
+* show elayed msg using same method as in previous error msgs
+
+### 111 - Signup Action Creator 7:11
+
+* add handleSubmit to form tag
+* setup handleSubmit helper under class - inside Call action creator
 * 
 
 
-### 111 - Signup Action Creator 7:11
 ### 112 - Finish Up Signup 8:55
 ### 113 - Securing Individual Routes 10:21
 ### 114 - Root IndexRoute 2:34
