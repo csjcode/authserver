@@ -355,6 +355,7 @@ Based on auth server client-side in the Udemy course Advanced React
 * test with console.log inside validate function
 * set error conditions in validate function
 * under each html field have a returned error msg
+* to delay error msg until clicked out of input: add in password.touched before password.error (see full line)
 
 
 

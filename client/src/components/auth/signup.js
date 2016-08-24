@@ -13,7 +13,7 @@ class Signup extends Component {
           <input className="form-control" {...email} />
           <label>Password: </label>
           <input className="form-control" {...password} type="password" />
-          <div>{ password.error }</div>
+          <div>{ password.touched && password.error && <div className="error">{ password.error }</div>}</div>
           <label>Password Confirm: </label>
           <input className="form-control" {...passwordConfirm}  type="password" />
         </fieldset><button action="submit" className="btn btn-primary">Sign Up!</button>
