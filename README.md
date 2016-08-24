@@ -361,13 +361,14 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 110 - More On Validation 5:40
 
 * make sure user has entered text for all fields
-* show elayed msg using same method as in previous error msgs
+* show delayed msg using same method as in previous error msgs
 
 ### 111 - Signup Action Creator 7:11
 
 * add handleSubmit to form tag
-* setup handleSubmit helper under class - inside Call action creator
-* 
+* setup handleFormSubmit helper under class - inside Call action creator
+* edit action/index.js - signup action (axios.post) will be nearly identical to signin
+* export signupUser
 
 
 ### 112 - Finish Up Signup 8:55

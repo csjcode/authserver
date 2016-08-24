@@ -3,8 +3,9 @@ import { reduxForm } from 'redux-form';
 import * as actions from '../../actions';
 
 class Signup extends Component {
-  handleSubmit(formProps) {
+  handleFormSubmit(formProps) {
     // Call action creator to signup
+    this.props.signupUser(formProps);
   }
 
   render(){

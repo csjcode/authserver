@@ -5,7 +5,7 @@ import { AUTH_USER, AUTH_ERROR, UNAUTH_USER } from './types'; // action types
 const ROOT_URL = 'http://localhost:3090';
 
 export function signinUser({ email, password }) {
-  return function functionName(dispatch) {
+  return function (dispatch) {
     // Submit to server
     axios.post(`${ROOT_URL}/signin`, { email, password }) // email:email, pasword:pasword  ... etc.
       .then(response => {
@@ -25,6 +25,12 @@ export function signinUser({ email, password }) {
   }
 
 };
+
+export function signupUser({ email, password }) {
+  return function (dispatch) {
+    axios.post(`${ROOT_URL}/signup`, { email, password }) 
+  };
+}
 
 export function authError(error) {
   return {
