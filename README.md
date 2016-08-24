@@ -344,9 +344,18 @@ Based on auth server client-side in the Udemy course Advanced React
 * (2) Then send off to server
 * ReduxForm maks validation easy on the client side
 * ReduxForm-validation-flow.png
-* 
+* on keypress user input goes to validation function as an object
+* if error return object based on keypress
+* if no error return empty object
 
 ### 109 - Implementing Validation Logic 9:28
+
+* signup.js: function validate(formProps) {
+* r=tell ReduxForm to use function
+* test with console.log inside validate function
+* 
+
+
 ### 110 - More On Validation 5:40
 ### 111 - Signup Action Creator 7:11
 ### 112 - Finish Up Signup 8:55

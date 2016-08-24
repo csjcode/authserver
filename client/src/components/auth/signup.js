@@ -21,7 +21,16 @@ class Signup extends Component {
   }
 }
 
+function validate(formProps) {
+  const errors = {};
+
+  console.log(formProps);
+
+  return errors;
+}
+
 export default reduxForm({
   form: 'signup',
-  fields: ['email','password','passwordConfirm']
+  fields: ['email','password','passwordConfirm'],
+  validate
 })(Signup);
