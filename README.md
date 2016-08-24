@@ -351,16 +351,19 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 109 - Implementing Validation Logic 9:28
 
 * signup.js: function validate(formProps) {
-* r=tell ReduxForm to use function
+* tell ReduxForm to use function
 * test with console.log inside validate function
 * set error conditions in validate function
 * under each html field have a returned error msg
 * to delay error msg until clicked out of input: add in password.touched before password.error (see full line)
 * Add red text style for error
 
-
-
 ### 110 - More On Validation 5:40
+
+* make sure user has entered text for all fields
+* 
+
+
 ### 111 - Signup Action Creator 7:11
 ### 112 - Finish Up Signup 8:55
 ### 113 - Securing Individual Routes 10:21
