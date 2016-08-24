@@ -339,6 +339,13 @@ Based on auth server client-side in the Udemy course Advanced React
 * Front-end of Signup form (7.107) email, password, passwordConfirm
 
 ### 108 - Redux Form Validation 4:30
+* 2 stage validation.
+* (1) Password entered that matches password validation clientside
+* (2) Then send off to server
+* ReduxForm maks validation easy on the client side
+* ReduxForm-validation-flow.png
+* 
+
 ### 109 - Implementing Validation Logic 9:28
 ### 110 - More On Validation 5:40
 ### 111 - Signup Action Creator 7:11
