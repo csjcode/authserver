@@ -387,8 +387,14 @@ Based on auth server client-side in the Udemy course Advanced React
 * TEST: should be able to (1) signup with a an old email and get error under form, (2) signup with new email, get return token
 * Clear out error messages:  auth_reducer: error '',
 
-
 ### 113 - Securing Individual Routes 10:21
+
+* setup the feature route - feature could be whatever your main application page is
+* scaffold component feature.js
+* router: import Feature
+
+
+
 ### 114 - Root IndexRoute 2:34
 ### 115 - Automatically Authenticating Users 7:11
 ### 116 - Making Authenticated API Requests 8:01
