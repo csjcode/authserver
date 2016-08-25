@@ -403,6 +403,12 @@ Based on auth server client-side in the Udemy course Advanced React
 * at this point, eature can only be accessed after signup or on signin.
 
 ### 114 - Root IndexRoute 2:34
+
+* set up index route
+* Setup index route to Welcome component
+* make new welcome.js file
+* test: http://localhost:8080/
+
 ### 115 - Automatically Authenticating Users 7:11
 ### 116 - Making Authenticated API Requests 8:01
 ### 117 - Handling Data from Authenticated Requests 5:13
