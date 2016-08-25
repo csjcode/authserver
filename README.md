@@ -370,8 +370,13 @@ Based on auth server client-side in the Udemy course Advanced React
 * edit action/index.js - signup action (axios.post) will be nearly identical to signin
 * export signupUser
 
-
 ### 112 - Finish Up Signup 8:55
+* we need to resolve the current error in console - this.props.signupUser is not a function
+* we had forgottent to add to actions at the nottom of the file
+* signup again check console to make sure (1) console error gone (2) network tab to show signup call made and (3) token recieved (click signup)
+* Signup again and there should be an error with response Email in Users
+* 
+
 ### 113 - Securing Individual Routes 10:21
 ### 114 - Root IndexRoute 2:34
 ### 115 - Automatically Authenticating Users 7:11

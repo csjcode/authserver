@@ -59,4 +59,4 @@ export default reduxForm({
   form: 'signup',
   fields: ['email','password','passwordConfirm'],
   validate
-})(Signup);
+},null,actions)(Signup);
