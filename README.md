@@ -390,8 +390,11 @@ Based on auth server client-side in the Udemy course Advanced React
 ### 113 - Securing Individual Routes 10:21
 
 * setup the feature route - feature could be whatever your main application page is
-* scaffold component feature.js
-* router: import Feature
+* 1 - scaffold component feature.js
+* 2 - router: import Feature
+* create: client\src\components\auth\require_auth.js
+* copy all code from ReduxInitializer/src/components/require_authorization.js
+
 
 
 
