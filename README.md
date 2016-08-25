@@ -375,7 +375,18 @@ Based on auth server client-side in the Udemy course Advanced React
 * we had forgottent to add to actions at the nottom of the file
 * signup again check console to make sure (1) console error gone (2) network tab to show signup call made and (3) token recieved (click signup)
 * Signup again and there should be an error with response Email in Users
+* in actions/index - duplicate (mostly) the first axios promise (signin) for signup now except for error part
+* gotcha - orginal said to use .catch(response... but you must use       
+  .catch(error => {
+      dispatch(authError(error.response.data.error))
+    });
+* gotcha 2: make sure the displayed errors msg underthe button is encapsulated within a return();
+* in signup - mapStateToProps
+* now add mapStateToProps to export actions at bottom of signup
+* add renderAlert() function to signup
+* TEST: should be able to (1) signup with a an old email and get error under form, (2) signup with new email, get return token
 * 
+
 
 ### 113 - Securing Individual Routes 10:21
 ### 114 - Root IndexRoute 2:34
