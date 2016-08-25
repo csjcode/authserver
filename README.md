@@ -385,7 +385,7 @@ Based on auth server client-side in the Udemy course Advanced React
 * now add mapStateToProps to export actions at bottom of signup
 * add renderAlert() function to signup
 * TEST: should be able to (1) signup with a an old email and get error under form, (2) signup with new email, get return token
-* 
+* Clear out error messages:  auth_reducer: error '',
 
 
 ### 113 - Securing Individual Routes 10:21
