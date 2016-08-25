@@ -394,8 +394,11 @@ Based on auth server client-side in the Udemy course Advanced React
 * 2 - router: import Feature
 * create: client\src\components\auth\require_auth.js
 * copy all code from ReduxInitializer/src/components/require_authorization.js
-
-
+* change state.authenticated to auth.state.authenticated
+* import RequireAuth
+* Then, any route that needs protected can just use ex.: {RequireAuth(Feature)}
+* Add to route
+* 
 
 
 ### 114 - Root IndexRoute 2:34
