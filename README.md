@@ -410,6 +410,26 @@ Based on auth server client-side in the Udemy course Advanced React
 * test: http://localhost:8080/
 
 ### 115 - Automatically Authenticating Users 7:11
+
+* in src/index.js - we're going to change around the store
+* const store = createStoreWithMiddleware(reducers);
+* const token = localStorage.getItem('token'); // if we have token, user is signed in
+* if(token){ store.dispatch({ type: AUTH_USER })
+* import AUTH_USER
+
+
+
 ### 116 - Making Authenticated API Requests 8:01
+
+* make action creator for API
+* wire up to feature component
+* add export to actions/index, including fetchMessage method with axios
+* in feature.js add redux, connect and actions
+* in feature.js add fetchMessage() in componentWillMount
+* at this point in console we get a 401, and bounced to home page: http://localhost:8080/feature
+* We need to get header to authenticate so next we'll add that  in the axios call by puting an object after it.
+* headers: { authorization: localStorage.getItem('token') }
+
+
 ### 117 - Handling Data from Authenticated Requests 5:13
 ### 118 - Authentication Wrapup 3:29
