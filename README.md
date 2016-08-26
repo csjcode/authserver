@@ -417,8 +417,6 @@ Based on auth server client-side in the Udemy course Advanced React
 * if(token){ store.dispatch({ type: AUTH_USER })
 * import AUTH_USER
 
-
-
 ### 116 - Making Authenticated API Requests 8:01
 
 * make action creator for API
@@ -430,6 +428,13 @@ Based on auth server client-side in the Udemy course Advanced React
 * We need to get header to authenticate so next we'll add that  in the axios call by puting an object after it.
 * headers: { authorization: localStorage.getItem('token') }
 
-
 ### 117 - Handling Data from Authenticated Requests 5:13
+
+* in types - create a new type FETCH_MESSAGE
+* actions/index: import this type FETCH_MESSAGE into actions/index
+* in action/index make use of redux thunk to dispatch type and payload
+* in auth_reducer FETCH_MESSAGE
+* in auth_reducer add case for FETCH_MESSAGE
+* should return "secret message" from server - normally this would be protected data going to the user. http://localhost:8080/feature
+ 
 ### 118 - Authentication Wrapup 3:29
