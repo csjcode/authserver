@@ -4,7 +4,7 @@
 
 ### User Authentication API server with Node.js, Express, Mongoose, MongoDB, Bcrypt, JWT, Passport
 
-Based on auth server in the Udemy course Advanced React
+Based on coded authored auth server in the Udemy course Advanced React by Stephen Grieder on Udemy - I have documented tricky parts, adding notes, and implemented most of the code which he authored originally, although ocassionally made necessary modifications.
 
 ## AUTH SERVER SETUP Notes:
 
